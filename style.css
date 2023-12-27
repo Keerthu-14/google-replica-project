@@ -9,6 +9,19 @@ body{
     height: 100vh;
     background: rgb(246,14,46);
     background: linear-gradient(125deg, rgba(246,14,46,1) 33%, rgba(255,244,0,1) 78%);
+    background-size: 500% 500%;
+    animation: bg 5s linear infinite;
+}
+@keyframes bg {
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+    }
 }
 
 .box{
